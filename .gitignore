@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+# build outputs and caches (rerun build.py to regenerate)
+examples/*/out/
+examples/*/_gen/
+# PowerPoint lock files
+~$*
+.DS_Store
+Thumbs.db
+examples/quickstart_out/

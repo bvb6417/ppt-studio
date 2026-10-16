@@ -1,0 +1,10 @@
+# required
+python-pptx>=1.0
+pillow>=9.0
+numpy>=1.22
+lxml>=4.9
+fonttools>=4.40
+# optional: PowerPoint COM rendering / real-layout QA / PDF / font embedding (Windows + Microsoft PowerPoint)
+pywin32>=305 ; sys_platform == "win32"
+# optional: equations (cv.equation / A.formula) and schematic figures
+matplotlib>=3.6
